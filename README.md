@@ -1,4 +1,8 @@
 # react-delayed-render
+<!-- Build Status -->
+<a href="https://travis-ci.org/thebuilder/react-delayed-render">
+  <img src="https://travis-ci.org/thebuilder/react-delayed-render.svg" alt="Build Status" />
+</a>
 
 Initialize server side rendered components when the app is ready.
 This requires the server to output a custom script tag, that contains the components and data to render.
