@@ -1,6 +1,6 @@
 {
   "name": "react-delayed-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "author": "Daniel Schmidt",
   "description": "Initialize server side rendered components when the app is ready. This requires the server to output a custom script tag, that contains the components and data to render.",
