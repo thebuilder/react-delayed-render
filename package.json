@@ -1,0 +1,43 @@
+{
+  "name": "react-delayed-render",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "author": "Daniel Schmidt",
+  "keywords": [
+    "react",
+    "serverside",
+    "reactjs.net"
+  ],
+  "repository": "https://github.com/thebuilder/react-delayed-render",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebuilder/react-delayed-render/issues"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "jest",
+    "build": "cross-env BABEL_ENV=commonjs babel index.js --out-dir lib",
+    "prepublish": "npm run clean && npm run test && npm run build"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-jest": "16.0.0",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-react": "6.16.0",
+    "cross-env": "3.1.3",
+    "jest": "16.0.2",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "rimraf": "2.5.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
