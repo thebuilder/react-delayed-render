@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-/** Flow Definition of the Component **/
 type ComponentDefinition = {name: string; props: Object; element: string};
 
 /**
