@@ -1,4 +1,6 @@
 # react-delayed-render
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thebuilder/react-delayed-render.svg)](https://greenkeeper.io/)
 <!-- Build Status -->
 <a href="https://travis-ci.org/thebuilder/react-delayed-render">
   <img src="https://travis-ci.org/thebuilder/react-delayed-render.svg" alt="Build Status" />
