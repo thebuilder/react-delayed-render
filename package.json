@@ -39,6 +39,6 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*"
+    "react-dom": ">=15.6.1"
   }
 }
