@@ -1,4 +1,5 @@
-# react-delayed-render
+## ⚠️ deprecated ⚠️
+# react-delayed-render 
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/thebuilder/react-delayed-render.svg)](https://greenkeeper.io/)
 <!-- Build Status -->
@@ -10,8 +11,6 @@ Initialize server side rendered components when the app is ready.
 This requires the server to output a custom script tag, that contains the components and data to render.
 
 We are using this solution with [ReactJS.net](http://reactjs.net/), to enable partial caching of the React views.
-
-There is an open [issue](https://github.com/reactjs/React.NET/issues/315) to implement the server side part of this solution:
 
 ```js
 import delayedRender from './utils/delayed-render';
